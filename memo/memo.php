@@ -69,6 +69,34 @@
 	}
 
   //do while
+  $n=0;
+  do{
+    $n++;
+    echo $n;
+  } while ($n<10);
+  
+  //strlen( )
+  //nombre de caractere d'une chaine de caractere (compte les espaces)
+  
+  //substr ( string $string , int $start [, int $length ] )
+  //Retourne le segment de string défini par start et length. 
+  //Attention, les positions des caractères d'une chaine débutent à 0 (zéro)
+  
+  //strtolower("thibaut")
+  //strtoupper("THIBAUT")
+  //strpos("thibaut","i") => 2 retourne false si pas de i
+  
+  //round arrondir un nombre a la virgule
+  //echo round(1.95583, 2);  // 1.96
+  //rand() ou rand(1,10)
 
-
+  //count(array) => compte tout les elements d'un tableau
+  //array_push($tableau, "contenu a push") : ajouter a la fin du tableau.
+  
+  //sort(array) trie un tableau dans l'ordre croissance ou alphabethique
+  // rsort() => reverse sort
+  // print join("/", $monTableau);  => 1/2/5/7/9  
+  
+  
+  
 ?>
