@@ -97,6 +97,6 @@
   // rsort() => reverse sort
   // print join("/", $monTableau);  => 1/2/5/7/9  
   
-  
+  toto
   
 ?>
